@@ -1,0 +1,51 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 0.5em;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.attribute {
+  margin-top: 1em;
+  border: 2px solid black;
+}
+
+.attribute-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16pt;
+  border-bottom: 2px solid black;
+}
+
+.attribute-description {
+  text-align: center;
+}
+
+.attribute-table th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.attribute-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.attribute-table th {
+  font-weight: bold;
+  text-align: center;
+}
+
+.attribute-table td {
+  font-size: 10pt;
+}
