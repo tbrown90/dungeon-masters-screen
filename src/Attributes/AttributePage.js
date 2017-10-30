@@ -1,81 +1,24 @@
 import React, { Component } from 'react';
 import Attribute from './Attribute';
+import AttributeSkillsTable from './AttributeSkillsTable';
+import SkillDifficultyTable from './SkillDifficultyTable';
 
 class AttributePage extends Component {
   render() {
     return (
       <div class="attribute-page">
         <div class="row">
-          <div class="col-sm-6">
-            <table class="attribute-table center">
-              <tr>
-                <th colspan="2">Skills</th>
-              </tr>
-              <tr>
-                <th>Ability Score</th>
-                <th>Associated Skills</th>
-              </tr>
-              <tr>
-                <td>Strength</td>
-                <td>Athletics</td>
-              </tr>
-              <tr>
-                <td>Dexterity</td>
-                <td>Acrobatics, Sleight of Hand, Stealth</td>
-              </tr>
-              <tr>
-                <td>Constitution</td>
-                <td>N/A (see Constitution table)</td>
-              </tr>
-              <tr>
-                <td>Intelligence</td>
-                <td>Arcana, History, Nature, Religion</td>
-              </tr>
-              <tr>
-                <td>Wisdom</td>
-                <td>Animal Handling, Insight, Medicine, Perception, Survival</td>
-              </tr>
-              <tr>
-                <td>Charisma</td>
-                <td>Deception, Intimidation, Performance, Persuasion</td>
-              </tr>
-            </table>
+          <div class="col-sm-12"><h1 class="text-center">Ability Checks</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3"><br/></div>
+          <div class="col-sm-3">
+            <AttributeSkillsTable />
           </div>
-          <div class="col-sm-6">
-            <table class="attribute-table center">
-              <tr>
-                <th colspan="2">Typical Difficulty Classes</th>
-              </tr>
-              <tr>
-                <th>Task Difficulty</th>
-                <th>DC</th>
-              </tr>
-              <tr>
-                <td>Trivial</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>Easy</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>Moderate</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>Hard</td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>Very Hard</td>
-                <td>25</td>
-              </tr>
-              <tr>
-                <td>Nearly Impossible</td>
-                <td>30</td>
-              </tr>
-            </table>
+          <div class="col-sm-3">
+            <SkillDifficultyTable />
           </div>
+          <div class="col-sm-3"><br/></div>
         </div>
         <div class="row">
           <Attribute name="Strength" description="Strength measures bodily power and athletic training." />
