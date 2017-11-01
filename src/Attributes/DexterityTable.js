@@ -4,7 +4,7 @@ class DexterityTable extends Component {
   render() {
     return (
 <div>
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Acrobatics</th>
@@ -30,7 +30,7 @@ class DexterityTable extends Component {
 		</tbody>
 	</table>
 
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Sleight of Hand</th>
@@ -48,7 +48,7 @@ class DexterityTable extends Component {
 		</tbody>
 	</table>
 
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Stealth</th>
@@ -62,7 +62,7 @@ class DexterityTable extends Component {
 		</tbody>
 	</table>
 
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Pick Lock, Disarm Trap, Other</th>

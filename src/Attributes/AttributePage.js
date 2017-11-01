@@ -6,21 +6,21 @@ import SkillDifficultyTable from './SkillDifficultyTable';
 class AttributePage extends Component {
   render() {
     return (
-      <div class="attribute-page">
-        <div class="row">
-          <div class="col-sm-12"><h1 class="text-center">Ability Checks</h1></div>
+      <div className="page">
+        <div className="row">
+          <div className="col-sm-12"><h1 className="page-title text-center">Ability Checks</h1></div>
         </div>
-        <div class="row">
-          <div class="col-sm-3"><br/></div>
-          <div class="col-sm-3">
+        <div className="row">
+          <div className="col-sm-3"><br/></div>
+          <div className="col-sm-3">
             <AttributeSkillsTable />
           </div>
-          <div class="col-sm-3">
+          <div className="col-sm-3">
             <SkillDifficultyTable />
           </div>
-          <div class="col-sm-3"><br/></div>
+          <div className="col-sm-3"><br/></div>
         </div>
-        <div class="row">
+        <div className="row">
           <Attribute name="Strength" description="Strength measures bodily power and athletic training." />
           <Attribute name="Dexterity" description="Dexterity measures agility, reflexes, and balance." />
           <Attribute name="Constitution" description="Constitution measures health, stamina, and vital force." />

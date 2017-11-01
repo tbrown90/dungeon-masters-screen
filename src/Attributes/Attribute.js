@@ -23,10 +23,10 @@ class Attribute extends Component {
       tableToRender = <CharismaTable />;
 
     return (
-      <div class="col-sm-4">
-        <div class="attribute">
-          <div class="attribute-name">{this.props.name}</div>
-          <div class="attribute-description">{this.props.description}</div>
+      <div className="col-sm-4">
+        <div className="dm-container">
+          <div className="dm-container-name">{this.props.name}</div>
+          <div className="dm-container-description">{this.props.description}</div>
           {tableToRender}
         </div>
       </div>

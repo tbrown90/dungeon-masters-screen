@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class AttributeSkillsTable extends Component {
   render() {
     return (
-<div class="attribute">
-	<div class="attribute-name">Skills</div>
-	<table class="attribute-table center">
+<div className="dm-container">
+	<div className="dm-container-name">Skills</div>
+	<table className="dm-container-table center">
 		<thead>
 			<tr>
 				<th>Ability Score</th>

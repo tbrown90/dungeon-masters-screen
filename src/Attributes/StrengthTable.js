@@ -4,7 +4,7 @@ class StrengthTable extends Component {
   render() {
     return (
 <div>
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Athletics</th>
@@ -34,7 +34,7 @@ class StrengthTable extends Component {
 		</tbody>
 	</table>
 
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Other feats of Strength</th>

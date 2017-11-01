@@ -4,7 +4,7 @@ class IntelligenceTable extends Component {
   render() {
     return (
 <div>
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Arcana, History, Nature, Religion</th>
@@ -30,7 +30,7 @@ class IntelligenceTable extends Component {
 		</tbody>
 	</table>
 
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Investigation, Other</th>

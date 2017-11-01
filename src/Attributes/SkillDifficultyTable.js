@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class SkillDifficultyTable extends Component {
   render() {
     return (
-<div class="attribute">
-	<div class="attribute-name">Typical Difficulty Classes</div>
-	<table class="attribute-table center width-100">
+<div className="dm-container">
+	<div className="dm-container-name">Typical Difficulty Classes</div>
+	<table className="dm-container-table center width-100">
 		<thead>
 			<tr>
 				<th>Task Difficulty</th>

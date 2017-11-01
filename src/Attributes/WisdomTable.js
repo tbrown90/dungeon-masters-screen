@@ -4,7 +4,7 @@ class WisdomTable extends Component {
   render() {
     return (
 <div>
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Insight, Perception</th>
@@ -38,7 +38,7 @@ class WisdomTable extends Component {
 		</tbody>
 	</table>
 
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Survival</th>
@@ -64,7 +64,7 @@ class WisdomTable extends Component {
 		</tbody>
 	</table>
 
-	<table class="attribute-table">
+	<table className="dm-container-table">
 		<thead>
 			<tr>
 				<th colspan="2">Animal Handling, Medicine</th>

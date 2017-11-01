@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './bootstrap-grid.min.css';
 import AttributePage from './Attributes/AttributePage';
+import ConditionsPage from './Conditions/ConditionsPage';
 import {openTab} from './JS/custom';
 
 class App extends Component {
@@ -14,17 +15,20 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Dungeon Master's Screen</h1>
-          <div class="tab-buttons">
+        </header>
+        <div className="menu">
+          <div className="tab-buttons">
             <button onClick={openTab.bind(this, "attribute-tab")}>Attributes</button>
             <button onClick={openTab.bind(this, "conditions-tab")}>Conditions</button>
           </div>
-        </header>
-        <div class="container-fluid">
-          <div class="tab" id="attribute-tab">
+        </div>
+
+        <div className="container-fluid">
+          <div className="tab" id="attribute-tab">
             <AttributePage />
           </div>
-          <div class="tab" id="conditions-tab">
-            HELLO FROM THE CONDITIONS TAB.
+          <div className="tab" id="conditions-tab">
+            <ConditionsPage />
           </div>
         </div>
       </div>

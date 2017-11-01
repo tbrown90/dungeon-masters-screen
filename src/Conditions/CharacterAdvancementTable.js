@@ -1,0 +1,124 @@
+import React, { Component } from 'react';
+
+class CharacterAdvancementTable extends Component {
+  render() {
+    return (
+        <div className="dm-container">
+            <div className="dm-container-name">Character Advancement</div>
+            <table className="dm-container-table width-100">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>EXP.</th>
+                        <th>Prof. Bonus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>300</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>900</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>2700</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6500</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>14000</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>23000</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>34000</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>48000</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>64000</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>85000</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>100000</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>120000</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>140000</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>165000</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>195000</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>225000</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>265000</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>305000</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>355000</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    );
+  }
+}
+
+export default CharacterAdvancementTable;
