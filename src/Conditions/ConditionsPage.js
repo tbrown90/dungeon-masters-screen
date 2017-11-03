@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CharacterAdvancementTable from './CharacterAdvancementTable';
 import RestingTable from './RestingTable';
+import DamageTable from './DamageTable';
 
 class ConditionsPage extends Component {
   render() {
@@ -12,12 +13,12 @@ class ConditionsPage extends Component {
         <div className="row">
             <div className="col-sm-7">
                 <div className="row">
-                    <div className="col-sm-3"><CharacterAdvancementTable /></div>
-                    <div className="col-sm-4"><RestingTable /></div>
+                    <div className="col-sm-4"><CharacterAdvancementTable /></div>
+                    <div className="col-sm-8"><RestingTable /></div>
                 </div>
             </div>
             <div className="col-sm-5">
-                <br/>
+                <div className="row"><div className="col-sm-12"><DamageTable /></div></div>
             </div>
         </div>
       </div>

@@ -63,8 +63,17 @@
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
+
 .dm-container-table th:first-child {
     border-left: 0px;
+}
+
+.dm-container-table td {
+    border-left: 1px solid black;
+}
+
+.dm-container-table td:first-child {
+    border: 0px;
 }
 
 .dm-container-table tr:nth-child(even) {
