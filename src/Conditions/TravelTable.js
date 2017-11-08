@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class RestingTable extends Component {
+class TravelTable extends Component {
   render() {
     return (
         <div className="dm-container">
