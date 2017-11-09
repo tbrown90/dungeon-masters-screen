@@ -92,3 +92,19 @@
 .dm-container-table td:first-child {
   font-weight: bold;
 }
+
+.menu {
+    background: lightgrey;
+}
+
+.tab-button {
+    box-shadow: none;
+    border: 0;
+    font-size: 12pt;
+    padding: 0.5em;
+    margin: 0.25em;
+}
+
+.tab-button:hover {
+    color: grey;
+}

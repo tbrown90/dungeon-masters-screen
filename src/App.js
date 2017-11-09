@@ -3,6 +3,7 @@ import './App.css';
 import './bootstrap-grid.min.css';
 import AttributePage from './Attributes/AttributePage';
 import ConditionsPage from './Conditions/ConditionsPage';
+import ItemsAndEquipmentPage from './ItemsAndEquipment/ItemsAndEquipmentPage';
 import {openTab} from './JS/custom';
 
 class App extends Component {
@@ -18,8 +19,9 @@ class App extends Component {
         </header>
         <div className="menu">
           <div className="tab-buttons">
-            <button onClick={openTab.bind(this, "attribute-tab")}>Attributes</button>
-            <button onClick={openTab.bind(this, "conditions-tab")}>Conditions</button>
+            <button className="tab-button" onClick={openTab.bind(this, "attribute-tab")}>Attributes</button>
+            <button className="tab-button" onClick={openTab.bind(this, "conditions-tab")}>Conditions</button>
+            <button className="tab-button" onClick={openTab.bind(this, "items-equipment-tab")}>Items and Equipment</button>
           </div>
         </div>
 
@@ -29,6 +31,9 @@ class App extends Component {
           </div>
           <div className="tab" id="conditions-tab">
             <ConditionsPage />
+          </div>
+          <div className="tab" id="items-equipment-tab">
+            <ItemsAndEquipmentPage />
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import TravelTable from './TravelTable';
 import DonningArmorTable from './DonningArmorTable';
 import CoverTable from './CoverTable';
 import ExhaustionTable from './ExhaustionTable';
+import ConditionsTable from './ConditionsTable';
 
 class ConditionsPage extends Component {
   render() {
@@ -31,6 +32,7 @@ class ConditionsPage extends Component {
             </div>
             <div className="col-sm-5">
                 <div className="row"><div className="col-sm-12"><DamageTable /></div></div>
+                <div className="row"><div className="col-sm-12"><ConditionsTable /></div></div>
             </div>
         </div>
       </div>
