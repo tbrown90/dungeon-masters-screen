@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import WeaponsTable from './WeaponsTable';
+import ArmorAndShieldsTable from './ArmorAndShieldsTable';
+import ServicesTable from './ServicesTable';
+import LifestyleTable from './LifestyleTable';
 
 class ItemsAndEquipmentPage extends Component {
   render() {
@@ -9,8 +12,22 @@ class ItemsAndEquipmentPage extends Component {
           <div className="col-sm-12"><h1 className="page-title text-center">Items and Equipment</h1></div>
         </div>
         <div className="row">
-            <div className="col-sm-6"><WeaponsTable /></div>
-            <div className="col-sm-6"><br/></div>
+          <div className="col-sm-6"><WeaponsTable /></div>
+          <div className="col-sm-6">
+            <div className="row">
+              <div className="col-sm-12">
+                <ArmorAndShieldsTable />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-6">
+                <ServicesTable />
+              </div>
+              <div className="col-sm-6">
+                <LifestyleTable />
+              </div>
+            </div>     
+          </div>       
         </div>
       </div>
     );
