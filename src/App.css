@@ -109,3 +109,18 @@
 .tab-button:hover {
     color: grey;
 }
+
+.pdf-page {
+  text-align: center;
+  margin: 0.25em auto;
+}
+
+.ReactPDF__Page {
+  margin-left: 25%;
+  margin: 0.25em 25%;
+  text-align: center;
+}
+
+.ReactPDF__Page__textContent {
+  transform: translate(-55%, -50%) !important;
+}

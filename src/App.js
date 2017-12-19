@@ -4,6 +4,7 @@ import './bootstrap-grid.min.css';
 import AttributePage from './Attributes/AttributePage';
 import ConditionsPage from './Conditions/ConditionsPage';
 import ItemsAndEquipmentPage from './ItemsAndEquipment/ItemsAndEquipmentPage';
+import MagicItemsPage from './ItemsAndEquipment/MagicItemsPage';
 import {openTab} from './JS/custom';
 
 class App extends Component {
@@ -34,6 +35,9 @@ class App extends Component {
           </div>
           <div className="tab" id="items-equipment-tab">
             <ItemsAndEquipmentPage />
+          </div>
+          <div className="tab" id="magic-items-tab">
+            <MagicItemsPage />
           </div>
         </div>
       </div>
