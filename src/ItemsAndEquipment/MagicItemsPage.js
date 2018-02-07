@@ -3,8 +3,7 @@ import { Document, Page } from 'react-pdf';
 
 class MagicItemsPage extends Component {
   state = {
-    numPages: null,
-    pageNumber: 1,
+    numPages: null
   }
  
   onDocumentLoad = ({ numPages }) => {
@@ -12,7 +11,7 @@ class MagicItemsPage extends Component {
   }
 
   render() {
-    const { pageNumber, numPages } = this.state;
+    const { numPages } = this.state;
 
     var pages = []
     for (var i = 0; i < numPages; ++i) {

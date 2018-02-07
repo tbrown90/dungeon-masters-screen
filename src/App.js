@@ -5,6 +5,7 @@ import AttributePage from './Attributes/AttributePage';
 import ConditionsPage from './Conditions/ConditionsPage';
 import ItemsAndEquipmentPage from './ItemsAndEquipment/ItemsAndEquipmentPage';
 import MagicItemsPage from './ItemsAndEquipment/MagicItemsPage';
+import NpcPage from './NPC/NpcPage';
 import {openTab} from './JS/custom';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
             <button className="tab-button" onClick={openTab.bind(this, "attribute-tab")}>Attributes</button>
             <button className="tab-button" onClick={openTab.bind(this, "conditions-tab")}>Conditions</button>
             <button className="tab-button" onClick={openTab.bind(this, "items-equipment-tab")}>Items and Equipment</button>
+            <button className="tab-button" onClick={openTab.bind(this, "npc-tab")}>NPCs</button>
           </div>
         </div>
 
@@ -38,6 +40,9 @@ class App extends Component {
           </div>
           <div className="tab" id="magic-items-tab">
             <MagicItemsPage />
+          </div>
+          <div className="tab" id="npc-tab">
+            <NpcPage />
           </div>
         </div>
       </div>
